@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KdgApplication", "KdgApplication\KdgApplication.csproj", "{53C47E91-9152-4851-8496-2F1FEF5D95CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53C47E91-9152-4851-8496-2F1FEF5D95CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C47E91-9152-4851-8496-2F1FEF5D95CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C47E91-9152-4851-8496-2F1FEF5D95CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C47E91-9152-4851-8496-2F1FEF5D95CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA01514F-A938-4BB0-AF15-61D0ADC9F319}
+	EndGlobalSection
+EndGlobal
