@@ -1,0 +1,14 @@
+﻿@model KdgApplication.Core.Texts.TextAnalysis
+
+<div class="card m-2 w-25">
+    <header class="card-header d-flex justify-content-between">
+        <h5 class="card-title">
+            @Model.Title
+        </h5>
+    </header>
+    <article class="card-body">
+        <p class="card-text">
+            @(Model.TextContent?.Substring(0, 140))
+        </p>
+    </article>
+</div>
