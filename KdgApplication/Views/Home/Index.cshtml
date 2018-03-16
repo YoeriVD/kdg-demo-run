@@ -12,19 +12,7 @@
     .card-body > .card-text:after { content: '...' }
 </style>
 <div class="d-flex justify-content-around flex-wrap">
-    @foreach (var card in Model.TextCards)
-    {
-        <div class="card m-2 w-25">
-            <header class="card-header d-flex justify-content-between">
-                <h5 class="card-title">
-                    @card.Title
-                </h5>
-            </header>
-            <article class="card-body">
-                <p class="card-text">
-                    @(card.TextContent?.Substring(0, 140))
-                </p>
-            </article>
-        </div>
-    }
+    
+    @Html.DisplayFor(m => m.TextCards)
+
 </div>
